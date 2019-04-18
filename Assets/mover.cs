@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class mover : MonoBehaviour
 {
+    
     private bool beingHandled = false;
     // Start is called before the first frame update
     void Start()
@@ -24,9 +25,7 @@ public class mover : MonoBehaviour
         {
             for (int i = 0; i < 50; i++)
             {
-                pos.y = pos.y + 0.05f;
-                transform.position = pos;
-                StartCoroutine(HandleIt());
+                Invoke("W", 0.05f);   
             }
             }
         if (Input.GetKeyDown(KeyCode.A)) { pos.x = pos.x - 2.5f; }
@@ -36,9 +35,18 @@ public class mover : MonoBehaviour
 
     }
 
+    public void W() {
+        Vector3 pos = transform.position;
+        pos.y = pos.y + 0.05f;
+        transform.position = pos;
+    }
+
     private IEnumerator HandleIt()
     {
-        yield return new WaitForSeconds(1);
+        Time.timeScale = 100;
+        beingHandled = true;
+        yield return new WaitForSeconds(1f);
+        beingHandled = false;
        
     }
 
