@@ -9,6 +9,8 @@ public class playerMover : MonoBehaviour
     public bool jump = false;
     public bool crouch = false;
     public float runSpeed = 40f;
+    
+
     void Start()
     {
         
