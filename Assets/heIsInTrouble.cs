@@ -23,8 +23,8 @@ public class heIsInTrouble : MonoBehaviour
 
 
         Vector3 newPosition = muskTransform.position;
-        newPosition.x = 110f;
-        newPosition.y = newPosition.y + 100f;
+        newPosition.x = 15f;
+        newPosition.y = -38f;
         transform.position = newPosition;
         if (piece == muskColider)
         {
@@ -33,4 +33,4 @@ public class heIsInTrouble : MonoBehaviour
         }
     }
 }
-}
+
