@@ -9866,7 +9866,8 @@ GameObject:
   - component: {fileID: 1018571340}
   - component: {fileID: 1018571342}
   - component: {fileID: 1018571343}
-  m_Layer: 0
+  - component: {fileID: 1018571344}
+  m_Layer: 8
   m_Name: Grimes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9968,7 +9969,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f559978ce2f7c4a90135f7de1222ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musk: {fileID: 1328423085}
   Grimes: {fileID: 1738066864}
+  target: {fileID: 1018571341}
+--- !u!60 &1018571344
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018571339}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.82, y: 1.31}
+    newSize: {x: 1.64, y: 2.62}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.295, y: -0.29999998}
+      - {x: 0.28, y: -0.185}
+      - {x: 0.35999998, y: -0.114999995}
+      - {x: 0.35999998, y: 0.055}
+      - {x: 0.26999998, y: 0.17999999}
+      - {x: 0.255, y: 0.26}
+      - {x: 0.17999999, y: 0.32999998}
+      - {x: 0.13, y: 0.475}
+      - {x: 0.04, y: 0.56}
+      - {x: -0.03, y: 0.615}
+      - {x: -0.049999997, y: 0.62}
+      - {x: -0.13499999, y: 0.62}
+      - {x: -0.155, y: 0.61}
+      - {x: -0.21, y: 0.585}
+      - {x: -0.25, y: 0.55}
+      - {x: -0.28, y: 0.49499997}
+      - {x: -0.29, y: 0.39999998}
+      - {x: -0.325, y: 0.315}
+      - {x: -0.375, y: 0.175}
+      - {x: -0.375, y: 0.07}
+      - {x: -0.35999998, y: -0.024999999}
+      - {x: -0.375, y: -0.089999996}
+      - {x: -0.375, y: -0.21499999}
+      - {x: -0.37, y: -0.285}
+      - {x: -0.34, y: -0.39999998}
+      - {x: -0.315, y: -0.42999998}
+      - {x: -0.235, y: -0.49499997}
+      - {x: -0.19, y: -0.515}
+      - {x: -0.14999999, y: -0.525}
+      - {x: 0.01, y: -0.53499997}
+      - {x: 0.08, y: -0.53499997}
+      - {x: 0.185, y: -0.515}
+      - {x: 0.25, y: -0.41}
+      - {x: 0.29, y: -0.35999998}
 --- !u!1 &1029665135
 GameObject:
   m_ObjectHideFlags: 0
@@ -16451,7 +16513,7 @@ GameObject:
   - component: {fileID: 1738066867}
   - component: {fileID: 1738066866}
   - component: {fileID: 1738066868}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Grimes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16534,7 +16596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c794db65f8ebd144b6b68dfd0aa8265, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grimes: {fileID: 0}
+  grimes: {fileID: 1738066866}
   score: 0
 --- !u!1 &1740885902
 GameObject:

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class collectDetect : MonoBehaviour
 {
-    public Collision2D musk;
+    public Collider2D musk;
     public GameObject Grimes;
+    public Transform target;
     void Start()
     {
         
@@ -15,14 +16,19 @@ public class collectDetect : MonoBehaviour
     void Update()
     {
         
-    } 
+    }
 
-
-    void OnCollisionEnter2D(Collision2D piece)
+    private void OnTriggerEnter2D(Collider2D piece)
     {
-        //if (piece == musk)
-        //{
-            Grimes.GetComponent<updateGrimes>().hitGrimes();
-        //}
+        
+  
+        Vector3 newPosition = target.position;
+        newPosition.x = newPosition.x + 6.23f;
+        newPosition.y = newPosition.y + 1.03f;
+        transform.position = newPosition;
+        if (piece == musk)
+        {
+        Grimes.GetComponent<updateGrimes>().hitGrimes();
+        }
     }
 }
