@@ -23,8 +23,8 @@ public class collectDetect : MonoBehaviour
         
   
         Vector3 newPosition = target.position;
-        newPosition.x = newPosition.x + 6.23f;
-        newPosition.y = newPosition.y + 1.03f;
+        newPosition.x = 100f;
+        newPosition.y = newPosition.y + 100f;
         transform.position = newPosition;
         if (piece == musk)
         {
