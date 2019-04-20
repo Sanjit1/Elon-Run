@@ -19,6 +19,10 @@ public class mover : MonoBehaviour
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
     private Vector3 m_Velocity = Vector3.zero;
 
+    public Transform muskie;
+    public Quaternion muskMove;
+
+
     [Header("Events")]
     [Space]
 
@@ -63,15 +67,8 @@ public class mover : MonoBehaviour
 
     public void Move(float move, bool crouch, bool jump)
     {
-        // If crouching, check to see if the character can stand up
-        if (!crouch)
-        {
-            // If the character has a ceiling preventing them from standing up, keep them crouching
-            if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
-            {
-                crouch = true;
-            }
-        }
+        
+
 
         //only control the player if grounded or airControl is turned on
         if (m_Grounded || m_AirControl)
@@ -103,11 +100,13 @@ public class mover : MonoBehaviour
             m_Grounded = false;
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
         }
-        if (!m_Grounded && crouch)
+        if (m_Grounded && crouch)
         {
-            
-            m_Rigidbody2D.AddForce(new Vector2(0f, -m_JumpForce/4));
+
+            m_Rigidbody2D.AddForce(new Vector2(0f, -m_JumpForce / 4));
         }
+       
+        
     }
 
 
