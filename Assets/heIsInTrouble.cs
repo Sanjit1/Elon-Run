@@ -6,6 +6,7 @@ public class heIsInTrouble : MonoBehaviour
 {
     public Collider2D muskColider;
     public Transform muskTransform;
+    public Transform cam;
 
     void Start()
     {
@@ -24,11 +25,11 @@ public class heIsInTrouble : MonoBehaviour
 
         Vector3 newPosition = muskTransform.position;
         newPosition.x = 15f;
-        newPosition.y = -38f;
+        newPosition.y = -30f;
         transform.position = newPosition;
         if (piece == muskColider)
         {
-            // He is in trouble
+            cam.position = newPosition;
             muskTransform.position = newPosition;
         }
     }
