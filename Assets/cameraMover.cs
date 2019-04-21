@@ -7,7 +7,7 @@ public class cameraMover : MonoBehaviour
 {
     public bool gameOn;
     public Transform target;
-    public bool won;
+    public bool won = false;
     
 
     void FixedUpdate()
@@ -19,9 +19,10 @@ public class cameraMover : MonoBehaviour
         {
             newPosition.x = newPosition.x + 6.23f;
             newPosition.y = newPosition.y - 2;
-        } else
+        }
+        else
         {
-            
+
             if (won)
             {
                 if (Input.GetButtonDown("L2"))
@@ -29,7 +30,8 @@ public class cameraMover : MonoBehaviour
                     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
                 }
             }
-            if (Input.GetButtonDown("Restart"))
+        }
+        if (Input.GetButtonDown("Restart"))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
