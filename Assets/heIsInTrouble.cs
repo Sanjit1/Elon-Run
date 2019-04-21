@@ -27,13 +27,10 @@ public class heIsInTrouble : MonoBehaviour
         Vector3 newPosition = muskTransform.position;
         newPosition.x = 15f;
         newPosition.y = 72.5f;
-        transform.position = newPosition;
         if (piece == muskColider)
         {
             cam.GetComponent<cameraMover>().gameOn = false;
             muskTransform.position = newPosition;
-            newPosition.y = 200;
-            me.position = newPosition;
         }
     }
 }

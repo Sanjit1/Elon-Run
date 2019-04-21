@@ -28,12 +28,9 @@ public class heWon : MonoBehaviour
         Vector3 newPosition = muskTransform.position;
         newPosition.x = 70f;
         newPosition.y = 80;
-        transform.position = newPosition;
         if (piece == muskColider)
         {
             muskTransform.position = newPosition;
-            newPosition.y = 100;
-            tesla.position = newPosition;
             cam.GetComponent<cameraMover>().gameOn = false;
             cam.GetComponent<cameraMover>().won = true;
             musk.AddForce(new Vector2(0f, -100));
