@@ -25,10 +25,10 @@ public class collectDetect : MonoBehaviour
         Vector3 newPosition = target.position;
         newPosition.x = 100f;
         newPosition.y = newPosition.y + 100f;
-        transform.position = newPosition;
         if (piece == musk)
         {
-        Grimes.GetComponent<updateGrimes>().hitGrimes();
+            transform.position = newPosition;
+            Grimes.GetComponent<updateGrimes>().hitGrimes();
         }
     }
 }
