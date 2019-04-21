@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class cameraMover : MonoBehaviour
 {
     public bool gameOn;
     public Transform target;
     public bool won;
+    
 
     void FixedUpdate()
     {
@@ -19,16 +21,17 @@ public class cameraMover : MonoBehaviour
             newPosition.y = newPosition.y - 2;
         } else
         {
+            
             if (won)
             {
                 if (Input.GetButtonDown("L2"))
                 {
-                    Application.LoadLevel(Application.loadedLevel);
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
                 }
             }
             if (Input.GetButtonDown("Restart"))
             {
-                Application.LoadLevel(Application.loadedLevel);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         transform.position = newPosition;
     }
