@@ -16,7 +16,7 @@ public class updateGrimes : MonoBehaviour
     public void hitGrimes()
     {
         score++;
-        grimes.text = score.ToString();
+        grimes.text = "Grimes " + score.ToString();
 
     }
     
