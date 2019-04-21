@@ -2713,6 +2713,7 @@ MonoBehaviour:
   muskColider: {fileID: 1328423085}
   muskTransform: {fileID: 1328423083}
   cam: {fileID: 1828667547}
+  me: {fileID: 571383653}
 --- !u!61 &571383651
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3941,6 +3942,7 @@ MonoBehaviour:
   muskColider: {fileID: 1328423085}
   muskTransform: {fileID: 1328423083}
   cam: {fileID: 1828667547}
+  me: {fileID: 664111029}
 --- !u!1 &684250775
 GameObject:
   m_ObjectHideFlags: 0
@@ -6644,6 +6646,7 @@ MonoBehaviour:
   muskColider: {fileID: 1328423085}
   muskTransform: {fileID: 1328423083}
   cam: {fileID: 1828667547}
+  me: {fileID: 1280217632}
 --- !u!61 &1280217630
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13754,6 +13757,7 @@ MonoBehaviour:
   muskColider: {fileID: 1328423085}
   muskTransform: {fileID: 1328423083}
   cam: {fileID: 1828667547}
+  me: {fileID: 2138373007}
 --- !u!1 &2142668675
 GameObject:
   m_ObjectHideFlags: 0
