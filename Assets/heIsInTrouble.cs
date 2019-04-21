@@ -6,6 +6,7 @@ public class heIsInTrouble : MonoBehaviour
 {
     public Collider2D muskColider;
     public Transform muskTransform;
+    public Camera cam;
 
     void Start()
     {
@@ -28,7 +29,7 @@ public class heIsInTrouble : MonoBehaviour
         transform.position = newPosition;
         if (piece == muskColider)
         {
-            
+            cam.GetComponent<cameraMover>().gameOn = false;
             muskTransform.position = newPosition;
         }
     }

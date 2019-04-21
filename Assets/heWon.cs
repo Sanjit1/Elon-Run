@@ -6,8 +6,9 @@ public class heWon : MonoBehaviour
 {
     public Collider2D muskColider;
     public Transform muskTransform;
-    Rigidbody2D musk;
+    public Rigidbody2D musk;
     public Transform tesla;
+    public Camera cam;
 
     void Start()
     {
@@ -33,6 +34,7 @@ public class heWon : MonoBehaviour
             muskTransform.position = newPosition;
             newPosition.y = 100;
             tesla.position = newPosition;
+            cam.GetComponent<cameraMover>().gameOn = false;
             musk.AddForce(new Vector2(0f, -100));
         }
     }
