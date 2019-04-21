@@ -35,6 +35,7 @@ public class heWon : MonoBehaviour
             newPosition.y = 100;
             tesla.position = newPosition;
             cam.GetComponent<cameraMover>().gameOn = false;
+            cam.GetComponent<cameraMover>().won = true;
             musk.AddForce(new Vector2(0f, -100));
         }
     }
