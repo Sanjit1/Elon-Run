@@ -23,12 +23,12 @@ public class cameraMover : MonoBehaviour
             {
                 if (Input.GetButtonDown("L2"))
                 {
-
+                    Application.LoadLevel(Application.loadedLevel);
                 }
             }
             if (Input.GetButtonDown("Restart"))
             {
-                
+                Application.LoadLevel(Application.loadedLevel);
             }
         transform.position = newPosition;
     }
