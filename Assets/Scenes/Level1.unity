@@ -8220,7 +8220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   muskColider: {fileID: 1328423085}
   muskTransform: {fileID: 1328423083}
-  musk: {fileID: 0}
+  musk: {fileID: 1328423084}
   tesla: {fileID: 1388114101}
   cam: {fileID: 1828667547}
 --- !u!60 &1388114103
@@ -11555,6 +11555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOn: 1
   target: {fileID: 1328423083}
+  won: 0
 --- !u!1 &1830787113
 GameObject:
   m_ObjectHideFlags: 0
