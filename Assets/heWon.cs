@@ -6,7 +6,8 @@ public class heWon : MonoBehaviour
 {
     public Collider2D muskColider;
     public Transform muskTransform;
-    public Transform tesla; 
+    Rigidbody2D musk;
+    public Transform tesla;
 
     void Start()
     {
@@ -25,13 +26,14 @@ public class heWon : MonoBehaviour
 
         Vector3 newPosition = muskTransform.position;
         newPosition.x = 70f;
-        newPosition.y = 80f;
+        newPosition.y = 80;
         transform.position = newPosition;
         if (piece == muskColider)
         {
             muskTransform.position = newPosition;
-            newPosition.y = 75;
+            newPosition.y = 100;
             tesla.position = newPosition;
+            musk.AddForce(new Vector2(0f, -100));
         }
     }
 }
