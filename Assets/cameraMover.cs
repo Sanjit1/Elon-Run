@@ -6,6 +6,7 @@ public class cameraMover : MonoBehaviour
 {
     public bool gameOn;
     public Transform target;
+    public bool won;
 
     void FixedUpdate()
     {
@@ -16,7 +17,19 @@ public class cameraMover : MonoBehaviour
         {
             newPosition.x = newPosition.x + 6.23f;
             newPosition.y = newPosition.y - 2;
-        }
+        } else
+        {
+            if (won)
+            {
+                if (Input.GetButtonDown("L2"))
+                {
+
+                }
+            }
+            if (Input.GetButtonDown("Restart"))
+            {
+                
+            }
         transform.position = newPosition;
     }
 
