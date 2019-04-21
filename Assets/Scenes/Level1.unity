@@ -3062,7 +3062,7 @@ GameObject:
   m_Component:
   - component: {fileID: 604656127}
   m_Layer: 0
-  m_Name: WallEndGame (1)
+  m_Name: WallWonGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
