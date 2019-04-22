@@ -15,15 +15,16 @@ public class upDown : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         Vector2 posit = transform.position;
         if (upOrDown)
         {
             posit.y += 0.1f;
-            if (posit.y == 7.5) upOrDown = false;
+            if (posit.y > 7.5) upOrDown = false;
         } else 
         {
             posit.y -= 0.1f;
-            if (posit.y == 2.5) upOrDown = false;
+            if (posit.y < 2.5) upOrDown = true;
         }
         transform.position = posit;
     }
