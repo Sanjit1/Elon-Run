@@ -17,7 +17,13 @@ public class cameraMover : MonoBehaviour
         newPosition.y = newPosition.y + 3.03f;
         if (gameOn)
         {
-            newPosition.x = newPosition.x + 6.23f;
+            if ((target.position.y>-3.2 && target.position.y < 0.4)||(target.position.y > 9.9 && target.position.y <13.75))
+            {
+                newPosition.x = newPosition.x + 6.23f;
+            } else
+            {
+                newPosition.x = newPosition.x - 6.23f;
+            }
             newPosition.y = newPosition.y - 2;
         }
         else
