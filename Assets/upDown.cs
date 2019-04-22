@@ -5,6 +5,10 @@ using UnityEngine;
 public class upDown : MonoBehaviour
 {
     bool upOrDown = true;
+    public float dSpeed;
+    public float uSpeed;
+    public float top;
+    public float bottom;
 
     // Start is called before the first frame update
     void Start()
@@ -19,12 +23,12 @@ public class upDown : MonoBehaviour
         Vector2 posit = transform.position;
         if (upOrDown)
         {
-            posit.y += 0.1f;
-            if (posit.y > 7.5) upOrDown = false;
+            posit.y += uSpeed;
+            if (posit.y > top) upOrDown = false;
         } else 
         {
-            posit.y -= 0.1f;
-            if (posit.y < 2.5) upOrDown = true;
+            posit.y -= dSpeed;
+            if (posit.y < bottom) upOrDown = true;
         }
         transform.position = posit;
     }
