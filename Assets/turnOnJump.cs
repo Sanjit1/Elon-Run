@@ -19,7 +19,7 @@ public class turnOnJump : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D piece)
     {
-        trap.GetComponent<jumpScareUpDown>.
+        trap.GetComponent<jumpScareUpDown>().keepItGoing = true;
     }
 
 }

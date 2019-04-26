@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class jumpScareUpDown : MonoBehaviour
 {
-    bool upOrDown = true;
+    public bool upOrDown = true;
     public bool keepItGoing = false;
     public float dSpeed;
     public float uSpeed;
