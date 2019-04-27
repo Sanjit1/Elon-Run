@@ -22,5 +22,6 @@ public class elevatorTesla : MonoBehaviour
         pos.x = 81;
         pos.y = 30;
         musk.position = pos; 
+
     }
 }
