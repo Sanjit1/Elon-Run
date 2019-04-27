@@ -5,9 +5,7 @@ using UnityEngine;
 public class heIsInTrouble : MonoBehaviour
 {
     public Collider2D muskColider;
-    public Transform muskTransform;
-    public Camera cam;
-    public Transform me;
+    public GameObject livestock;
 
     void Start()
     {
@@ -23,14 +21,10 @@ public class heIsInTrouble : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D piece)
     {
 
-
-        Vector3 newPosition = muskTransform.position;
-        newPosition.x = 15f;
-        newPosition.y = 72.5f;
         if (piece == muskColider)
         {
-            cam.GetComponent<cameraMover>().gameOn = false;
-            muskTransform.position = newPosition;
+            livestock.GetComponent<LiveCounter>().removeAhHart();
+            
         }
     }
 }
