@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Pacer : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public bool teslaToldYou = false;
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (teslaToldYou)
+        {
+            Vector2 pos = transform.position;
+            pos.x -= 0.05f;
+            if (pos.x > 4)
+            {
+                transform.position = pos;
+            }
+        }
     }
 }
