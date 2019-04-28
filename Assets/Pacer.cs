@@ -24,8 +24,5 @@ public class Pacer : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D piece)
-    {
-        teslaToldYou = true;
-    }
+   
 }
