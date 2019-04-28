@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pacer : MonoBehaviour
 {
     public bool teslaToldYou = false;
+    public int xStart;
     void Start()
     {
 
@@ -27,7 +28,7 @@ public class Pacer : MonoBehaviour
     public void placeFalcon()
     {
         Vector2 pos = transform.position;
-        pos.x = 82;
+        pos.x = xStart;
         transform.position = pos;
     }
    
