@@ -24,5 +24,11 @@ public class Pacer : MonoBehaviour
         }
     }
 
+    public void placeFalcon()
+    {
+        Vector2 pos = transform.position;
+        pos.x = 82;
+        transform.position = pos;
+    }
    
 }
