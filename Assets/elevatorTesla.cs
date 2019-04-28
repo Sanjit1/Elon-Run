@@ -24,5 +24,7 @@ public class elevatorTesla : MonoBehaviour
         pos.y = 30;
         musk.position = pos;
         rocket.GetComponent<Pacer>().teslaToldYou = true;
+        rocket.GetComponent<Pacer>().placeFalcon();
+
     }
 }
