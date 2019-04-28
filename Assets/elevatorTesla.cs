@@ -6,6 +6,7 @@ public class elevatorTesla : MonoBehaviour
 {
     public Transform musk;
     public GameObject rocket;
+    public GameObject dolphinsRocket;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,8 @@ public class elevatorTesla : MonoBehaviour
         musk.position = pos;
         rocket.GetComponent<Pacer>().teslaToldYou = true;
         rocket.GetComponent<Pacer>().placeFalcon();
+        dolphinsRocket.GetComponent<Pacer>().teslaToldYou = true;
+        dolphinsRocket.GetComponent<Pacer>().placeFalcon();
 
     }
 }
