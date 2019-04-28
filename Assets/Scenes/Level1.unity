@@ -9355,6 +9355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musk: {fileID: 1328423083}
+  rocket: {fileID: 333690060}
 --- !u!1 &1216478462
 GameObject:
   m_ObjectHideFlags: 0
