@@ -5,6 +5,7 @@ using UnityEngine;
 public class elevatorTesla : MonoBehaviour
 {
     public Transform musk;
+    public GameObject rocket;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,7 @@ public class elevatorTesla : MonoBehaviour
         Vector2 pos = transform.position;
         pos.x = 81;
         pos.y = 30;
-        musk.position = pos; 
-
+        musk.position = pos;
+        rocket.GetComponent<Pacer>().teslaToldYou = true;
     }
 }
