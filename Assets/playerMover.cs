@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class playerMover : MonoBehaviour
 {
+    public Joystick joystick;
+
     public mover controller;
     public float horizontalMove = 0f;
     public bool jump = false;
@@ -19,7 +21,7 @@ public class playerMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         if (Input.GetButtonDown("Jump"))
@@ -35,6 +37,13 @@ public class playerMover : MonoBehaviour
         {
             crouch = false;
         }
+
+        if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+        {
+            Debug.Log("phone");
+
+        }
+
 
     }
 
