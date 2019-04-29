@@ -24,22 +24,22 @@ public class upDownLR : MonoBehaviour
         Vector2 posit = transform.position;
         if (direction == 1)
         {
-            posit.y += 0.1f;
+            posit.y += 0.09f;
             if (posit.y > topRightY) direction++;
         }
         else if (direction == 2)
         {
-            posit.x -= 0.1f;
+            posit.x -= 0.09f;
             if (posit.x < topLeftX) direction++;
         }
         else if (direction == 3)
         {
-            posit.y -= 0.1f;
+            posit.y -= 0.09f;
             if (posit.y < bottomLeftY) direction++;
         }
         else if (direction == 4)
         {
-            posit.x += 0.1f;
+            posit.x += 0.09f;
             if (posit.x > BottomRightX) direction = 1;
         }
         transform.position = posit;
