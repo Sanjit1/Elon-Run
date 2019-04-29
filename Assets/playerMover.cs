@@ -21,8 +21,9 @@ public class playerMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+
+        // horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        // Uncomment for webgl
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -52,6 +53,20 @@ public class playerMover : MonoBehaviour
         // Move our character
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
+    }
+
+    void moveWithButton(int horizontal, int vertical)
+    {
+        horizontalMove = horizontal * runSpeed;
+        if(vertical == 1)
+        {
+            crouch = false;
+            jump = true;
+        }
+        if (vertical == -1)
+        {
+            crouch = true;
+        }
     }
 }
  
