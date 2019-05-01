@@ -10,10 +10,15 @@ public class playerMover : MonoBehaviour
     public bool jump = false;
     public bool crouch = false;
     public float runSpeed = 40f;
+    public float mobileRunSpeed = 40f;
 
-    public void MoveWithButton(int horizontal, int vertical)
+    public void RightLeft(int horizontal)
     {
-        horizontalMove = horizontal * runSpeed;
+        controller.Move(horizontal * mobileRunSpeed * Time.fixedDeltaTime, true, false);
+    }
+
+    public void UpDown(int vertical)
+    {
         if (vertical == 1)
         {
             crouch = false;
@@ -24,6 +29,7 @@ public class playerMover : MonoBehaviour
             crouch = true;
         }
     }
+
 
     void Start()
     {
