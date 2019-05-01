@@ -11,10 +11,14 @@ public class playerMover : MonoBehaviour
     public bool crouch = false;
     public float runSpeed = 40f;
     public float mobileRunSpeed = 40f;
+    public Rigidbody2D musk;
+    public UnityEngine.UI.Button right;
+    public UnityEngine.UI.Button left;
 
-    public void RightLeft(int horizontal)
+    public void RightLeft(float horizontal)
     {
-        controller.Move(horizontal * mobileRunSpeed * Time.fixedDeltaTime, true, false);
+        musk.AddForce(new Vector2(Mathf.RoundToInt(2*(horizontal-0.5f)) * mobileRunSpeed, 0f));
+        Debug.Log(horizontal);
     }
 
     public void UpDown(int vertical)
@@ -40,8 +44,9 @@ public class playerMover : MonoBehaviour
     void Update()
     {
 
-        // horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         // Uncomment for webgl
+        // horizontalMove = Joystick.Horizontal * runSpeed;
 
         if (Input.GetButtonDown("Jump"))
         {
