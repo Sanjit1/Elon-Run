@@ -3,15 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class playerMover : MonoBehaviour
-{
-    public Joystick joystick;
+{ 
 
     public mover controller;
     public float horizontalMove = 0f;
     public bool jump = false;
     public bool crouch = false;
     public float runSpeed = 40f;
-    
+
+    public void MoveWithButton(int horizontal, int vertical)
+    {
+        horizontalMove = horizontal * runSpeed;
+        if (vertical == 1)
+        {
+            crouch = false;
+            jump = true;
+        }
+        if (vertical == -1)
+        {
+            crouch = true;
+        }
+    }
 
     void Start()
     {
@@ -55,18 +67,6 @@ public class playerMover : MonoBehaviour
         jump = false;
     }
 
-    void moveWithButton(int horizontal, int vertical)
-    {
-        horizontalMove = horizontal * runSpeed;
-        if(vertical == 1)
-        {
-            crouch = false;
-            jump = true;
-        }
-        if (vertical == -1)
-        {
-            crouch = true;
-        }
-    }
+    
 }
  
