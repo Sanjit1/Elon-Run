@@ -7,33 +7,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/Managed/Assembly-CSharp-firstpass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/Managed/Assembly-CSharp-firstpass.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/Managed/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/Managed/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/globalgamemanagers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/globalgamemanagers.assets.split0" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/globalgamemanagers.assets.split0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/globalgamemanagers.assets.split1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/globalgamemanagers.assets.split1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/globalgamemanagers.assets.split2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/globalgamemanagers.assets.split2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/level0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split0" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split10" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split11" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split11" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split12" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split13" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split13" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split14" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split14" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split15" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split15" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split5" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split6" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split7" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split8" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split9" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split21" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/bin/Data/sharedassets0.assets.split21" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +36,7 @@
     <session id="1754502892">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -74,7 +59,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="113" />
     <option name="y" value="322" />
     <option name="width" value="1815" />

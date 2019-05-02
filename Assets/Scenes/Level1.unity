@@ -7423,7 +7423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -69.16, y: 0}
+  m_AnchoredPosition: {x: -59, y: 0}
   m_SizeDelta: {x: 67.4, y: 69.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845342556
@@ -8952,7 +8952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a157ba41ba8dcd044b11cd74f28153ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonName: Crouch
+  ButtonName: Restart
   pressed: 0
 --- !u!225 &929057451
 CanvasGroup:
@@ -15456,7 +15456,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.00002}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 69.45, y: 0}
+  m_AnchoredPosition: {x: 63, y: -0}
   m_SizeDelta: {x: 68.83, y: 69.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1478507717
