@@ -9,15 +9,8 @@ public class cameraMover : MonoBehaviour
     public Transform target;
     public bool won = false;
 
-    private void Update()
-    {
-        if (Input.GetButtonDown("Restart"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            //Debug.Log("Pressed");
-        }
-        
-    }
+     
+    
     void FixedUpdate()
     {
         Vector3 newPosition = target.position;
